@@ -1,0 +1,383 @@
+Log uploaded on Saturday, April 15, 2023, 11:12:15 PM
+Loaded mods:
+Harmony(brrainz.harmony)[mv:1.5.0.0]: 0Harmony(2.2.2), HarmonyMod(1.5.0)
+Core(Ludeon.RimWorld): (no assemblies)
+HugsLib(UnlimitedHugs.HugsLib)[ov:10.0.1]: 0Harmony(av:2.2.2,fv:1.2.0.1), HugsLib(av:1.0.0,fv:10.0.1)
+Ideology(Ludeon.RimWorld.Ideology): (no assemblies)
+Biotech(Ludeon.RimWorld.Biotech): (no assemblies)
+Humanoid Alien Races(erdelf.HumanoidAlienRaces): 0Harmony(2.2.2), AlienRace(1.0.0)
+JecsTools(jecrell.jecstools)[mv:1.4.1.1]: 0JecsTools(1.4.1), AbilityUser(1.4.1), AbilityUserAI(1.4.1), CompActivatableEffect(1.4.1), CompAnimated(1.4.1), CompBalloon(1.4.0), CompBigBox(1.4.1), CompDeflector(1.4.0), CompDelayedSpawner(1.4.1), CompExtraSounds(1.4.0), CompInstalledPart(1.4.1), CompLumbering(1.4.0), CompOverlays(1.4.0), CompOversizedWeapon(1.4.1), CompSlotLoadable(1.4.1), CompToggleDef(1.4.0), PawnShields(1.4.0), ThinkNodes(1.4.0)
+Call of Cthulhu - Elder Things(rimofmadness.callofcthulhu.elderthings)[mv:1.23.0.2]: ElderThingFaction(0.0.0)
+
+Active Harmony patches:
+AddictionUtility.CanBingeOnNow: post: AlienRace.HarmonyPatches.CanBingeNowPostfix
+AgeInjuryUtility.GenerateRandomOldAgeInjuries: PRE: AlienRace.HarmonyPatches.GenerateRandomOldAgeInjuriesPrefix
+AgeInjuryUtility.RandomHediffsToGainOnBirthday: post: AlienRace.HarmonyPatches.RandomHediffsToGainOnBirthdayPostfix
+Alert_LifeThreateningHediff.GetExplanation: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+Alert_MechMissingBodyPart.HasMissingBodyPart: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+ApparelGraphicRecordGetter.TryGetGraphicApparel: TRANS: AlienRace.HarmonyPatches.TryGetGraphicApparelTranspiler
+ApparelUtility.CanWearTogether: post: JecsTools.HarmonyPatches.Post_CanWearTogether
+ApparelUtility.GetApparelReplacedByNewApparel: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+ArmorUtility.ApplyArmor: PRE: JecsTools.HarmonyPatches.Pre_ApplyArmor
+ArmorUtility.GetPostArmorDamage: post: JecsTools.HarmonyPatches.Post_GetPostArmorDamage
+BackCompatibilityConverter_0_18.PostExposeData: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+BattleLogEntry_DamageTaken.DamagedBody: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+BattleLogEntry_ExplosionImpact.DamagedBody: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+BattleLogEntry_MeleeCombat.DamagedBody: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+BattleLogEntry_RangedImpact.DamagedBody: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+BedUtility.WillingToShareBed: post: AlienRace.HarmonyPatches.WillingToShareBedPostfix
+Bill.PawnAllowedToStartAnew: post: AlienRace.HarmonyPatches.PawnAllowedToStartAnewPostfix
+Caravan.GetGizmos: post: JecsTools.HarmonyCaravanPatches.GetGizmos_Jobs
+Caravan.GetInspectString: post: JecsTools.HarmonyCaravanPatches.GetInspectString_Jobs
+CharacterCardUtility.LifestageAndXenotypeOptions: TRANS: AlienRace.HarmonyPatches.LifestageAndXenotypeOptionsTranspiler
+CompAssignableToPawn_Bed.get_AssigningCandidates: post: AlienRace.HarmonyPatches.AssigningCandidatesPostfix
+CompDrug.PostIngested: post: AlienRace.HarmonyPatches.PostIngestedPostfix
+CompMechPowerCell.KillPowerProcessor: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+CompRottable.StageChanged: PRE: AlienRace.HarmonyPatches.RottableCompStageChangedPostfix
+CompTargetEffect_PsychicShock.DoEffectOn: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+CompUseEffect_InstallImplant.CanBeUsedBy: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+CompUseEffect_InstallImplant.DoEffect: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+CompUseEffect_InstallImplant.GetExistingImplant: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+Corpse.GetInspectString: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+Corpse.IngestedCalculateAmounts: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+DamageInfo.ToString: post: JecsTools.HarmonyPatches.DamageInfo_ToString_Postfix
+DamageWorker_AddInjury.ApplySmallPawnDamagePropagation: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+DamageWorker_Blunt.<>c.<StunChances>b__2_0: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+DamageWorker_Blunt.<>c.<StunChances>b__2_5: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+DamageWorker_Blunt.ApplySpecialEffectsToPart: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+DebugOutputsHealth.<>c__DisplayClass5_0.<Prosthetics>b__13: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+DebugOutputsHealth.<>c__DisplayClass5_0.<Prosthetics>b__14: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+DebugOutputsTextGen.<>c__DisplayClass0_5.<FlavorfulCombatTest>b__22: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+DebugToolsPawns.Do10DamageUntilDead: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+DebugTools_Health.Options_Damage_BodyParts: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+DebugTools_Health.Options_Hediff_BodyParts: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+DebugWindowsOpener.DevToolStarterOnGUI: TRANS: HugsLib.Patches.DevToolStarterOnGUI_Patch.ExtendButtonsWindow
+DebugWindowsOpener.DrawButtons: TRANS: HugsLib.Patches.DebugWindowsOpener_Patch.DrawAdditionalButtons
+Designator.CanDesignateThing: post: AlienRace.HarmonyPatches.CanDesignateThingTamePostfix
+Dialog_Options.DoModOptions: TRANS: HugsLib.Patches.DialogOptions_DoModOptions_Patch.InterceptWindowOpening
+Dialog_Options.PostOpen: post: HugsLib.Patches.DialogOptions_PostOpen_Patch.InjectHugsLibEntries
+EditWindow_Log.DoMessagesListing: PRE: HugsLib.Patches.EditWindow_Log_Patch.ExtraLogWindowButtons
+EditWindow_TweakValues.DoWindowContents: TRANS: AlienRace.TweakValues.TweakValuesTranspiler
+EquipmentUtility.CanEquip: post: AlienRace.HarmonyPatches.CanEquipPostfix
+Faction.FactionTick: TRANS: AlienRace.HarmonyPatches.FactionTickTranspiler
+Faction.TryMakeInitialRelationsWith: post: AlienRace.HarmonyPatches.TryMakeInitialRelationsWithPostfix
+FloatMenuMakerMap.AddHumanlikeOrders: post: JecsTools._HumanlikeOrdersUtility.AddHumanlikeOrders_PostFix
+FoodUtility.AddThoughtsFromIdeo: PRE: AlienRace.HarmonyPatches.FoodUtilityAddThoughtsFromIdeoPrefix
+FoodUtility.GetBodyPartNutrition: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+FoodUtility.ThoughtsFromIngesting: post: AlienRace.HarmonyPatches.ThoughtsFromIngestingPostfix
+Game.DeinitAndRemoveMap: post: HugsLib.Patches.Game_DeinitAndRemoveMap_Patch.MapRemovalHook
+Game.FillComponents: PRE: HugsLib.Patches.Game_FillComponents_Patch.GameInitializationHook
+Game.FinalizeInit: post: HugsLib.Patches.Game_FinalizeInit_Patch.WorldLoadedHook
+GameInitData.PrepForMapGen: PRE: AlienRace.HarmonyPatches.PrepForMapGenPrefix
+GameRules.DesignatorAllowed: TRANS: AlienRace.HarmonyPatches.DesignatorAllowedTranspiler
+GenConstruct.CanConstruct: post: AlienRace.HarmonyPatches.CanConstructPostfix
+GenConstruct.CanPlaceBlueprintOver: post: JecsTools.HarmonyPatches.CanPlaceBlueprintOver_PostFix
+GenSpawn.SpawningWipes: post: JecsTools.HarmonyPatches.SpawningWipes_PostFix
+Gizmo_GrowthTier.GrowthTierTooltip: PRE: AlienRace.HarmonyPatches.GrowthTierTooltipPrefix
+GlobalTextureAtlasManager.TryGetPawnFrameSet: PRE: AlienRace.HarmonyPatches.GlobalTextureAtlasGetFrameSetPrefix
+GrammarUtility.RulesForPawn: post: AlienRace.HarmonyPatches.RulesForPawnPostfix
+GrowthUtility.IsGrowthBirthday: TRANS: AlienRace.HarmonyPatches.IsGrowthBirthdayTranspiler
+HealthCardUtility.<>c__DisplayClass43_0.<DoDebugOptions>b__17: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+HealthCardUtility.<>c__DisplayClass43_0.<DoDebugOptions>b__3: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+HealthCardUtility.DrawOverviewTab: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+HealthUtility.FixWorstHealthCondition: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+HealthUtility.ShouldRandomSurgeryInjuriesAvoidDestroying: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+Hediff.Tick: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+HediffComp_DissolveGearOnDeath.Notify_PawnDied: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+HediffComp_ReactOnDamage.React: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+HediffGiver_Hypothermia.OnIntervalPassed: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+HediffSet.<>c.<get_HasHead>b__11_0: post: AlienRace.HarmonyPatches.HasHeadPostfix
+HediffSet.<GetNotMissingParts>d__51.MoveNext: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+HediffSet.AddDirect: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+HediffSet.CacheMissingPartsCommonAncestors: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+HediffSet.get_HasHead: PRE: AlienRace.HarmonyPatches.HasHeadPrefix
+HumanEmbryo.CanImplantReport: post: AlienRace.HarmonyPatches.EmbryoImplantReportPostfix
+HumanEmbryo.ImplantPawnValid: PRE: AlienRace.HarmonyPatches.EmbryoImplantPawnPrefix
+HumanOvum.CanFertilizeReport: post: AlienRace.HarmonyPatches.HumanOvumCanFertilizeReportPostfix
+HumanlikeMeshPoolUtility.GetHumanlikeBeardSetForPawn: TRANS: AlienRace.HarmonyPatches.GetHumanlikeHairSetForPawnTranspiler
+HumanlikeMeshPoolUtility.GetHumanlikeBodySetForPawn: TRANS: AlienRace.HarmonyPatches.GetHumanlikeBodySetForPawnTranspiler
+HumanlikeMeshPoolUtility.GetHumanlikeHairSetForPawn: PRE: ElderThingFaction.HarmonyElderThings.GetHumanlikeHairSetForPawn_PreFix TRANS: AlienRace.HarmonyPatches.GetHumanlikeHairSetForPawnTranspiler
+HumanlikeMeshPoolUtility.GetHumanlikeHeadSetForPawn: TRANS: AlienRace.HarmonyPatches.GetHumanlikeHeadSetForPawnTranspiler
+ITab_Pawn_Gear.DrawThingRow: post: CompSlotLoadable.HarmonyCompSlotLoadable.DrawThingRow_PostFix
+ITab_Pawn_Gear.InterfaceDrop: PRE: CompInstalledPart.HarmonyCompInstalledPart.InterfaceDrop_PreFix
+ITab_Pawn_Gear.TryDrawOverallArmor: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+InteractionWorker_RomanceAttempt.Interacted: TRANS: AlienRace.HarmonyPatches.RomanceAttemptInteractTranspiler
+InteractionWorker_RomanceAttempt.SuccessChance: post: AlienRace.HarmonyPatches.RomanceAttemptSuccessChancePostfix
+JobDriver_Lovin.GenerateRandomMinTicksToNextLovin: TRANS: AlienRace.HarmonyPatches.GenerateRandomMinTicksToNextLovinTranspiler
+JobDriver_Wear.Notify_Starting: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+JobDriver_Wear.TryUnequipSomething: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+JobGiver_OptimizeApparel.ApparelScoreGain: post: AlienRace.HarmonyPatches.ApparelScoreGainPostFix TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+JobGiver_SatisfyChemicalNeed.DrugValidator: post: AlienRace.HarmonyPatches.DrugValidatorPostfix
+LanguageDatabase.SelectLanguage: PRE: HugsLib.Patches.LanguageDatabase_Patch.ForceRestartAfterLangChange
+LifeStageWorker_HumanlikeAdult.Notify_LifeStageStarted: post: AlienRace.HarmonyPatches.AdultLifeStageStartedPostfix TRANS: AlienRace.HarmonyPatches.AdultLifeStageStartedTranspiler
+LifeStageWorker_HumanlikeChild.Notify_LifeStageStarted: post: AlienRace.HarmonyPatches.ChildLifeStageStartedPostfix TRANS: AlienRace.HarmonyPatches.ChildLifeStageStartedTranspiler
+MainMenuDrawer.DoMainMenuControls: TRANS: HugsLib.Patches.MainMenuDrawer_Quickstart_Patch.QuicktestButtonUsesQuickstarter
+MainTabWindow_Research.DrawRightRect: TRANS: AlienRace.HarmonyPatches.ResearchScreenTranspiler
+MainTabWindow_Research.ViewSize: TRANS: AlienRace.HarmonyPatches.ResearchScreenTranspiler
+Map.ConstructComponents: post: HugsLib.Patches.Map_ConstructComponents_Patch.MapComponentsInitHook
+Map.FinalizeInit: post: HugsLib.Patches.Map_FinalizeInit_Patch.MapLoadedHook
+MapComponentUtility.MapGenerated: post: HugsLib.Patches.MapComponentUtility_MapGenerated_Patch.MapGeneratedHook
+MedicalRecipesUtility.<GetFixedPartsToApplyOn>d__5.MoveNext: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+MemoryThoughtHandler.GetFirstMemoryOfDef: PRE: AlienRace.HarmonyPatches.ThoughtReplacementPrefix
+MemoryThoughtHandler.NumMemoriesOfDef: PRE: AlienRace.HarmonyPatches.ThoughtReplacementPrefix
+MemoryThoughtHandler.OldestMemoryOfDef: PRE: AlienRace.HarmonyPatches.ThoughtReplacementPrefix
+MemoryThoughtHandler.RemoveMemoriesOfDef: PRE: AlienRace.HarmonyPatches.ThoughtReplacementPrefix
+MemoryThoughtHandler.RemoveMemoriesOfDefIf: PRE: AlienRace.HarmonyPatches.ThoughtReplacementPrefix
+MemoryThoughtHandler.RemoveMemoriesOfDefWhereOtherPawnIs: PRE: AlienRace.HarmonyPatches.ThoughtReplacementPrefix
+MemoryThoughtHandler.TryGainMemory: PRE: AlienRace.HarmonyPatches.TryGainMemoryPrefix
+MeshPool.GetMeshSetForWidth: TRANS: AlienRace.HarmonyPatches.GetMeshSetForWidthTranspiler
+ModsConfig.RestartFromChangedMods: PRE: HugsLib.Patches.ModsConfig_RestartFromChangedMods_Patch.QuickRestartInDevMode
+Page_ConfigureStartingPawns.CanDoNext: post: AlienRace.HarmonyPatches.CanDoNextStartPawnPostfix
+Pawn.ChangeKind: PRE: AlienRace.HarmonyPatches.ChangeKindPrefix
+Pawn.DropAndForbidEverything: post: PawnShields.HarmonyPatches.Patch_Pawn_DropAndForbidEverything
+Pawn.ExitMap: PRE: CompActivatableEffect.HarmonyCompActivatableEffect.ExitMap_PreFix
+Pawn.PostApplyDamage: post: CompSlotLoadable.HarmonyCompSlotLoadable.PostApplyDamage_PostFix
+Pawn.PreApplyDamage: PRE: [600]JecsTools.HarmonyPatches.Pawn_PreApplyDamage_Prefix post: [200]JecsTools.HarmonyPatches.Pawn_PreApplyDamage_Postfix
+Pawn.SetFaction: post: AlienRace.HarmonyPatches.SetFactionPostfix
+PawnApparelGenerator.GenerateStartingApparelFor: PRE: AlienRace.HarmonyPatches.GenerateStartingApparelForPrefix, ElderThingFaction.HarmonyElderThings.GenerateStartingApparelFor_PreFix post: AlienRace.HarmonyPatches.GenerateStartingApparelForPostfix, JecsTools.HarmonyPatches.GenerateStartingApparelFor_PostFix
+PawnApparelGenerator.PossibleApparelSet.GiveToPawn: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+PawnApparelGenerator.PossibleApparelSet.Reset: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+PawnBioAndNameGenerator.FillBackstorySlotShuffled: PRE: AlienRace.HarmonyPatches.FillBackstoryInSlotShuffledPrefix TRANS: AlienRace.HarmonyPatches.FillBackstorySlotShuffledTranspiler
+PawnBioAndNameGenerator.GeneratePawnName: PRE: AlienRace.HarmonyPatches.GeneratePawnNamePrefix
+PawnBioAndNameGenerator.GetBackstoryCategoryFiltersFor: post: AlienRace.HarmonyPatches.GetBackstoryCategoryFiltersForPostfix
+PawnBioAndNameGenerator.GiveShuffledBioTo: TRANS: AlienRace.HarmonyPatches.MinAgeForAdulthood
+PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor: post: AlienRace.HarmonyPatches.TryGetRandomUnusedSolidBioForPostfix
+PawnBioAndNameGenerator.TryGiveSolidBioTo: TRANS: AlienRace.HarmonyPatches.MinAgeForAdulthood
+PawnCacheRenderer.RenderPawn: PRE: AlienRace.HarmonyPatches.CacheRenderPawnPrefix
+PawnCapacityUtility.CalculateLimbEfficiency: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+PawnCapacityUtility.CalculateTagEfficiency: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+PawnCapacityWorker_BloodFiltration.CalculateCapacityLevel: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+PawnGenerator.AddBlindness: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+PawnGenerator.GenerateBodyType: post: AlienRace.HarmonyPatches.GenerateBodyTypePostfix
+PawnGenerator.GenerateGearFor: post: AlienRace.HarmonyPatches.GenerateGearForPostfix, PawnShields.HarmonyPatches.Patch_PawnGenerator_GenerateGearFor
+PawnGenerator.GenerateGenes: PRE: AlienRace.HarmonyPatches.GenerateGenesPrefix, ElderThingFaction.HarmonyElderThings.GenerateGenes_PreFix post: AlienRace.HarmonyPatches.GenerateGenesPostfix TRANS: AlienRace.HarmonyPatches.GenerateGenesTranspiler
+PawnGenerator.GenerateInitialHediffs: post: AlienRace.HarmonyPatches.GenerateInitialHediffsPostfix
+PawnGenerator.GeneratePawn: PRE: AlienRace.HarmonyPatches.GeneratePawnPrefix post: JecsTools.HarmonyPatches.Post_GeneratePawn, JecsTools.HarmonyPatches.Post_GeneratePawn_Genes
+PawnGenerator.GeneratePawnRelations: PRE: AlienRace.HarmonyPatches.GeneratePawnRelationsPrefix
+PawnGenerator.GenerateRandomAge: PRE: AlienRace.HarmonyPatches.GenerateRandomAgePrefix, ElderThingFaction.HarmonyElderThings.GenerateRandomAge_PreFix TRANS: ElderThingFaction.HarmonyElderThings.GenerateRandomAgeTranspiler
+PawnGenerator.GenerateSkills: PRE: AlienRace.HarmonyPatches.GenerateSkillsPrefix post: AlienRace.HarmonyPatches.GenerateSkillsPostfix
+PawnGenerator.GenerateTraits: PRE: AlienRace.HarmonyPatches.GenerateTraitsPrefix post: AlienRace.HarmonyPatches.GenerateTraitsPostfix
+PawnGenerator.GenerateTraitsFor: TRANS: AlienRace.HarmonyPatches.GenerateTraitsForTranspiler
+PawnGenerator.GetBodyTypeFor: post: AlienRace.HarmonyPatches.GetBodyTypeForPostfix
+PawnGenerator.TryGenerateNewPawnInternal: TRANS: AlienRace.HarmonyPatches.TryGenerateNewPawnInternalTranspiler
+PawnGraphicSet.ResolveAllGraphics: PRE: AlienRace.HarmonyPatches.ResolveAllGraphicsPrefix
+PawnGroupKindWorker.GeneratePawns: post: AbilityUser.AbilityUserMod.GeneratePawns_PostFix
+PawnHairColors.HasGreyHair: TRANS: AlienRace.HarmonyPatches.HasGreyHairTranspiler
+PawnHairColors.RandomHairColor: TRANS: AlienRace.HarmonyPatches.GenerateGenesTranspiler
+PawnKindDef.<ConfigErrors>d__113.MoveNext: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+PawnRelationDef.GetGenderSpecificLabel: PRE: AlienRace.HarmonyPatches.GetGenderSpecificLabelPrefix
+PawnRelationWorker_Child.GenerationChance: post: AlienRace.HarmonyPatches.GenerationChanceChildPostfix
+PawnRelationWorker_ExLover.GenerationChance: post: AlienRace.HarmonyPatches.GenerationChanceExLoverPostfix
+PawnRelationWorker_ExSpouse.GenerationChance: post: AlienRace.HarmonyPatches.GenerationChanceExSpousePostfix
+PawnRelationWorker_Fiance.GenerationChance: post: AlienRace.HarmonyPatches.GenerationChanceFiancePostfix
+PawnRelationWorker_Lover.GenerationChance: post: AlienRace.HarmonyPatches.GenerationChanceLoverPostfix
+PawnRelationWorker_Parent.GenerationChance: post: AlienRace.HarmonyPatches.GenerationChanceParentPostfix
+PawnRelationWorker_Sibling.GenerationChance: post: AlienRace.HarmonyPatches.GenerationChanceSiblingPostfix
+PawnRelationWorker_Spouse.GenerationChance: post: AlienRace.HarmonyPatches.GenerationChanceSpousePostfix
+PawnRenderer.BaseHeadOffsetAt: post: AlienRace.HarmonyPatches.BaseHeadOffsetAtPostfix TRANS: AlienRace.HarmonyPatches.BaseHeadOffsetAtTranspiler
+PawnRenderer.BodyAngle: post: ElderThingFaction.HarmonyElderThings.BodyAngle_PostFix TRANS: AlienRace.HarmonyPatches.PostureTranspiler
+PawnRenderer.DrawEquipmentAiming: PRE: CompInstalledPart.HarmonyCompInstalledPart.DrawEquipmentAiming_PreFix, CompOversizedWeapon.HarmonyCompOversizedWeapon.DrawEquipmentAimingPreFix post: CompActivatableEffect.HarmonyCompActivatableEffect.DrawEquipmentAimingPostFix, CompDeflector.HarmonyCompDeflector.DrawEquipmentAimingPostFix
+PawnRenderer.DrawHeadHair: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+PawnRenderer.GetBodyOverlayMeshSet: post: AlienRace.HarmonyPatches.GetBodyOverlayMeshSetPostfix
+PawnRenderer.LayingFacing: TRANS: AlienRace.HarmonyPatches.PostureTranspiler
+PawnRenderer.RenderPawnAt: post: PawnShields.HarmonyPatches.Patch_PawnRenderer_RenderPawnAt TRANS: AlienRace.HarmonyPatches.PostureTranspiler
+PawnRenderer.RenderPawnInternal: PRE: AlienRace.HarmonyPatches.RenderPawnInternalPrefix TRANS: AlienRace.HarmonyPatches.RenderPawnInternalTranspiler
+PawnRenderer.SwaddleBaby: PRE: ElderThingFaction.HarmonyElderThings.SwaddleBaby_PreFix
+PawnStyleItemChooser.RandomHairFor: PRE: ElderThingFaction.HarmonyElderThings.RandomHairDefFor_PreFix
+PawnStyleItemChooser.TotalStyleItemLikelihood: post: AlienRace.HarmonyPatches.TotalStyleItemLikelihoodPostfix
+PawnStyleItemChooser.WantsToUseStyle: PRE: AlienRace.HarmonyPatches.WantsToUseStylePrefix post: AlienRace.HarmonyPatches.WantsToUseStylePostfix
+PawnTechHediffsGenerator.InstallPart: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+PawnTextureAtlas..ctor: TRANS: AlienRace.HarmonyPatches.PawnTextureAtlasConstructorTranspiler
+PawnTextureAtlas.<>c.<.ctor>b__12_0: TRANS: AlienRace.HarmonyPatches.PawnTextureAtlasConstructorFuncTranspiler
+PawnTextureAtlas.TryGetFrameSet: TRANS: AlienRace.HarmonyPatches.PawnTextureAtlasGetFrameSetTranspiler
+PawnWeaponGenerator.TryGenerateWeaponFor: PRE: AlienRace.HarmonyPatches.TryGenerateWeaponForPrefix post: AlienRace.HarmonyPatches.TryGenerateWeaponForPostfix
+PawnWoundDrawer.<WriteCache>g__CalcAnchorData|7_3: post: AlienRace.HarmonyPatches.CalcAnchorDataPostfix
+PawnWoundDrawer.<WriteCache>g__FindAnchors|7_1: post: AlienRace.HarmonyPatches.FindAnchorsPostfix
+PawnWoundDrawer.WoundDebug: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+PawnWoundDrawer.WriteCache: TRANS: AlienRace.HarmonyPatches.WoundWriteCacheTranspiler
+Pawn_AgeTracker.BirthdayBiological: PRE: AlienRace.HarmonyPatches.BirthdayBiologicalPrefix
+Pawn_AgeTracker.PostResolveLifeStageChange: post: AlienRace.HarmonyPatches.PostResolveLifeStageChangePostfix
+Pawn_AgeTracker.TryChildGrowthMoment: PRE: AlienRace.HarmonyPatches.TryChildGrowthMomentPrefix
+Pawn_ApparelTracker.CanWearWithoutDroppingAnything: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+Pawn_ApparelTracker.Wear: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+Pawn_ApparelTracker.WouldReplaceLockedApparel: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+Pawn_DraftController.set_Drafted: post: CompActivatableEffect.HarmonyCompActivatableEffect.set_DraftedPostFix
+Pawn_EquipmentTracker.GetGizmos: post: CompActivatableEffect.HarmonyCompActivatableEffect.GetGizmosPostfix, CompSlotLoadable.HarmonyCompSlotLoadable.GetGizmos_PostFix
+Pawn_EquipmentTracker.MakeRoomFor: post: PawnShields.HarmonyPatches.Patch_Pawn_EquipmentTracker_MakeRoomFor
+Pawn_EquipmentTracker.TryDropEquipment: PRE: CompInstalledPart.HarmonyCompInstalledPart.TryDropEquipment_PreFix
+Pawn_GeneTracker.AddGene: PRE: AlienRace.HarmonyPatches.AddGenePrefix
+Pawn_GeneTracker.Notify_GenesChanged: TRANS: AlienRace.HarmonyPatches.NotifyGenesChangedTranspiler
+Pawn_HealthTracker.CalculateMissingPartHediffsFromInjury: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+Pawn_HealthTracker.CheckForStateChange: post: AlienRace.HarmonyPatches.CheckForStateChangePostfix, PawnShields.HarmonyPatches.Patch_Pawn_HealthTracker_CheckForStateChance
+Pawn_HealthTracker.PreApplyDamage: PRE: JecsTools.HarmonyPatches.PreApplyDamage_PrePatch, PawnShields.HarmonyPatches.Patch_Pawn_HealthTracker_PreApplyDamage
+Pawn_HealthTracker.ShouldBeDead: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+Pawn_IdeoTracker.get_CertaintyChangeFactor: PRE: ElderThingFaction.HarmonyElderThings.get_CertaintyChangeFactor_PreFix
+Pawn_MindState.SetupLastHumanMeatTick: PRE: AlienRace.HarmonyPatches.SetupLastHumanMeatTickPrefix
+Pawn_RelationsTracker.CompatibilityWith: post: AlienRace.HarmonyPatches.CompatibilityWithPostfix
+Pawn_RelationsTracker.SecondaryLovinChanceFactor: post: AlienRace.HarmonyPatches.SecondaryLovinChanceFactorPostfix TRANS: AlienRace.HarmonyPatches.SecondaryLovinChanceFactorTranspiler
+Pawn_StoryTracker.get_SkinColor: post: AlienRace.HarmonyPatches.SkinColorPostfix
+Pawn_StyleTracker.FinalizeHairColor: post: AlienRace.HarmonyPatches.FinalizeHairColorPostfix
+PlayDataLoader.DoPlayLoad: post: HugsLib.Patches.PlayDataLoader_Patch.InitModsHook
+PreceptComp_Apparel_Desired.Notify_MemberGenerated: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+PreceptComp_KnowsMemoryThought.Notify_MemberWitnessedAction: TRANS: AlienRace.HarmonyPatches.KnowsMemoryThoughtTranspiler
+PreceptComp_SelfTookMemoryThought.Notify_MemberTookAction: TRANS: AlienRace.HarmonyPatches.SelfTookMemoryThoughtTranspiler
+PreceptComp_UnwillingToDo_Gendered.MemberWillingToDo: TRANS: AlienRace.HarmonyPatches.UnwillingWillingToDoGenderedTranspiler
+PregnancyUtility.ApplyBirthOutcome: TRANS: AlienRace.HarmonyPatches.ApplyBirthOutcomeTranspiler
+PregnancyUtility.CanEverProduceChild: post: AlienRace.HarmonyPatches.CanEverProduceChildPostfix TRANS: AlienRace.HarmonyPatches.CanEverProduceChildTranspiler
+PregnancyUtility.PregnancyChanceForPartners: PRE: AlienRace.HarmonyPatches.PregnancyChanceForPartnersPrefix
+Projectile.CanHit: post: JecsTools.HarmonyPatches.CanHit_PostFix
+Projectile.Launch: PRE: ElderThingFaction.HarmonyElderThings.Launch_Prefix
+QuestNode_Root_WandererJoin_WalkIn.GeneratePawn: TRANS: AlienRace.HarmonyPatches.WandererJoinTranspiler
+RaceProperties.CanEverEat: post: AlienRace.HarmonyPatches.CanEverEatPostfix
+Recipe_ExtractOvum.AvailableReport: post: AlienRace.HarmonyPatches.ExtractOvumAvailableReportPostfix
+Recipe_RemoveBodyPart.<GetPartsToApplyOn>d__2.MoveNext: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+RestUtility.CanUseBedEver: post: AlienRace.HarmonyPatches.CanUseBedEverPostfix
+Root.OnGUI: post: HugsLib.Patches.Root_OnGUI_Patch.OnGUIHookUnfiltered
+Root.Update: post: HugsLib.Patches.Root_Patch.UpdateHook
+Scenario.TickScenario: post: JecsTools.HarmonyPatches.Scenario_TickScenario_Postfix
+SelectionDrawer.DrawSelectionBracketFor: PRE: DefModExtension_BigBox.HarmonyDefModExtension_BigBox.DrawSelectionBracketFor_PreFix
+ShortHashGiver.GiveShortHash: PRE: AbilityUser.AbilityUserMod.GiveShortHash_PrePatch
+SituationalThoughtHandler.TryCreateThought: PRE: AlienRace.HarmonyPatches.TryCreateThoughtPrefix
+StartingPawnUtility.NewGeneratedStartingPawn: TRANS: AlienRace.HarmonyPatches.NewGeneratedStartingPawnTranspiler
+StartingPawnUtility.get_DefaultStartingPawnRequest: TRANS: AlienRace.HarmonyPatches.DefaultStartingPawnTranspiler
+StatPart_BlindPsychicSensitivityOffset.ConsideredBlind: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+StatPart_FertilityByGenderAge.AgeFactor: TRANS: AlienRace.HarmonyPatches.FertilityAgeFactorTranspiler
+StatPart_NaturalNotMissingBodyPartsCoverage.<>c.<TryGetValue>b__2_0: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+StatWorker.GetExplanationUnfinalized: TRANS: PawnShields.HarmonyPatches.Transpiler_StatWorker_GetExplanationUnfinalized
+StatWorker.GetValue: post: CompSlotLoadable.HarmonyCompSlotLoadable.StatWorker_GetValue_PostFix
+StatWorker.GetValueUnfinalized: TRANS: PawnShields.HarmonyPatches.Transpiler_StatWorker_GetValueUnfinalized
+StatWorker.StatOffsetFromGear: post: CompSlotLoadable.HarmonyCompSlotLoadable.StatOffsetFromGear_PostFix
+StorytellerUtility.DefaultParmsNow: post: ElderThingFaction.HarmonyElderThings.DefaultParmsNow_PostFix
+Targeter.ConfirmStillValid: PRE: AbilityUser.AbilityUserMod.ConfirmStillValid
+Targeter.ProcessInputEvents: PRE: AbilityUser.AbilityUserMod.ProcessInputEvents_PreFix
+Targeter.TargeterUpdate: post: AbilityUser.AbilityUserMod.TargeterUpdate_PostFix
+Thing.Ingested: PRE: AlienRace.HarmonyPatches.IngestedPrefix
+Thing.SetFactionDirect: post: AlienRace.HarmonyPatches.SetFactionDirectPostfix
+Thing.TakeDamage: PRE: CompDeflector.HarmonyCompDeflector.TakeDamage_PreFix
+Thing.get_DefaultGraphic: post: CompOversizedWeapon.HarmonyCompOversizedWeapon.get_DefaultGraphic_PostFix
+ThingDef.<ConfigErrors>d__352.MoveNext: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+ThingWithComps.InitializeComps: post: AbilityUser.AbilityUserMod.InitializeComps_PostFix
+ThoughtUtility.CanGetThought: post: AlienRace.HarmonyPatches.CanGetThoughtPostfix
+ThoughtWorker_Man.CurrentSocialStateInternal: TRANS: AlienRace.HarmonyPatches.MisandryMisogynyTranspiler
+ThoughtWorker_MissingTongue.CurrentStateInternal: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+ThoughtWorker_Woman.CurrentSocialStateInternal: TRANS: AlienRace.HarmonyPatches.MisandryMisogynyTranspiler
+TileFinder.RandomSettlementTileFor: PRE: ElderThingFaction.HarmonyElderThings.RandomSettlementTileFor_PreFix
+Toils_StyleChange.FinalizeLookChange: post: AlienRace.HarmonyPatches.FinalizeLookChangePostfix
+TradeUI.DrawTradeableRow: TRANS: AlienRace.HarmonyPatches.DrawTradeableRowTranspiler
+Tradeable_Pawn.ResolveTrade: TRANS: AlienRace.HarmonyPatches.TradeablePawnResolveTranspiler
+TraderCaravanUtility.GetTraderCaravanRole: TRANS: AlienRace.HarmonyPatches.GetTraderCaravanRoleTranspiler
+TraitSet.GainTrait: PRE: AlienRace.HarmonyPatches.GainTraitPrefix
+UIRoot.UIRootOnGUI: post: HugsLib.Patches.UIRoot_OnGUI_Patch.OnGUIHook
+Verb.CanHitCellFromCellIgnoringRange: PRE: JecsTools.HarmonyPatches.CanHitCellFromCellIgnoringRange_Prefix
+Verb.TryStartCastOn: PRE: AbilityUser.AbilityUserMod.TryStartCastOn_Prefix, CompActivatableEffect.HarmonyCompActivatableEffect.TryStartCastOnPrefix
+Verb.get_DirectOwner: PRE: AbilityUser.AbilityUserMod.get_DirectOwner_Prefix
+Verb.get_UIIcon: PRE: AbilityUser.AbilityUserMod.get_UIIcon
+VerbProperties.<ConfigErrors>d__144.MoveNext: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+Verb_LaunchProjectile.get_Projectile: PRE: AbilityUser.AbilityUserMod.get_Projectile_Prefix
+Verb_MeleeAttack.SoundHitBuilding: post: CompExtraSounds.HarmonyCompExtraSounds.SoundHitBuildingPostfix
+Verb_MeleeAttack.SoundHitPawn: post: CompExtraSounds.HarmonyCompExtraSounds.SoundHitPawnPostfix
+Verb_MeleeAttack.SoundMiss: post: CompExtraSounds.HarmonyCompExtraSounds.SoundMissPostfix
+Verb_MeleeAttackDamage.<DamageInfosToApply>d__2.MoveNext: TRANS: JecsTools.HarmonyPatches.Verb_MeleeAttackDamage_DamageInfosToApply_Transpiler
+Verb_MeleeAttackDamage.DamageInfosToApply: post: AlienRace.HarmonyPatches.DamageInfosToApplyPostfix, CompSlotLoadable.HarmonyCompSlotLoadable.DamageInfosToApply_PostFix
+VersionControl.DrawInfoInCorner: post: HarmonyMod.VersionControl_DrawInfoInCorner_Patch.Postfix
+WITab_Caravan_Gear.TryEquipDraggedItem: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+WITab_Caravan_Health.DoRow: TRANS: AlienRace.HarmonyPatches.BodyReferenceTranspiler
+WorkGiver_GrowerHarvest.HasJobOnCell: post: AlienRace.HarmonyPatches.HasJobOnCellHarvestPostfix
+WorkGiver_GrowerSow.ExtraRequirements: post: AlienRace.HarmonyPatches.ExtraRequirementsGrowerSowPostfix
+WorkGiver_InteractAnimal.CanInteractWithAnimal: post: AlienRace.HarmonyPatches.CanInteractWithAnimalPostfix
+WorkGiver_Researcher.ShouldSkip: post: AlienRace.HarmonyPatches.ShouldSkipResearchPostfix
+WorldSelector.AutoOrderToTileNow: post: JecsTools.HarmonyCaravanPatches.AutoOrderToTileNow_Jobs
+WorldSelector.SelectableObjectsUnderMouse: post: JecsTools.HarmonyCaravanPatches.SelectableObjectsUnderMouse_InvisHandler
+Harmony versions present: 2.2.2.0: net.pardeike.rimworld.lib.harmony, UnlimitedHugs.HugsLib, jecstools.jecrell.abilityuser, jecstools.jecrell.comps.activator, rimworld.erdelf.alien_race.main, rimworld.jecrell.cthulhu.elderthings, jecstools.jecrell.main, jecstools.jecrell.comps.slotloadable, jecstools.chjees.shields, jecstools.jecrell.caravanjobs, jecstools.jecrell.humanlikeorders, jecstools.jecrell.comps.installedpart, jecstools.jecrell.comps.oversized, jecstools.jecrell.comps.deflector, jecstools.jecrell.defmodextensions.bigbox, jecstools.jecrell.comps.sounds
+
+Platform information: (hidden, use publishing options to include)
+
+Log file contents:
+Mono path[0] = '[Rimworld_dir]/RimWorldWin64_Data/Managed'
+Mono config path = '[Rimworld_dir]/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.30f1 (e8c891080a1f)
+[Subsystems] Discovering subsystems at path [Rimworld_dir]/RimWorldWin64_Data/UnitySubsystems
+GfxDevice: [Renderer information redacted]
+Begin MonoManager ReloadAssembly
+RimWorld 1.4.3682 rev789
+[HugsLib] version 10.0.1
+Textures were not found for one or more extended graphics, enable devmode for more information
+Textures were not found for one or more extended graphics, enable devmode for more information
+Textures were not found for one or more extended graphics, enable devmode for more information
+Textures were not found for one or more extended graphics, enable devmode for more information
+Textures were not found for one or more extended graphics, enable devmode for more information
+Textures were not found for one or more extended graphics, enable devmode for more information
+Alien race successfully completed 221 patches with harmony.
+[UnlimitedHugs.HugsLib] Patches on methods annotated as Obsolete were detected by HugsLib: Verse.Game.DeinitAndRemoveMap 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 2)
+
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 19351.
+Total: 159.270700 ms (FindLiveObjects: 1.580100 ms CreateObjectMapping: 1.113600 ms MarkObjects: 156.487100 ms  DeleteObjects: 0.089600 ms)
+
+Failed to find Verse.GeneDef named ET_SporeReproduction. There are 227 defs of this type loaded. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error while generating pawn. Rethrowing. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+  at RimWorld.GeneMaker.MakeGene (Verse.GeneDef def, Verse.Pawn pawn) [0x00000] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at RimWorld.Pawn_GeneTracker.AddGene (Verse.GeneDef geneDef, System.Boolean xenogene) [0x0001a] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at ElderThingFaction.HarmonyElderThings.GenerateGenes_PreFix (Verse.Pawn pawn) [0x00026] in <db586fa84ac4474f9e17a6584d128155>:0 
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.GenerateGenes_Patch3(Verse.Pawn,RimWorld.XenotypeDef,Verse.PawnGenerationRequest)
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.TryGenerateNewPawnInternal_Patch0(Verse.PawnGenerationRequest&,string&,bool,bool)
+  at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest& request) [0x00094] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest request) [0x00188] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.GeneratePawn_Patch3(Verse.PawnGenerationRequest) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+There was an exception thrown by the PawnGenerator during generating a starting pawn. Trying one more time...
+Exception: System.NullReferenceException: Object reference not set to an instance of an object
+  at RimWorld.GeneMaker.MakeGene (Verse.GeneDef def, Verse.Pawn pawn) [0x00000] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at RimWorld.Pawn_GeneTracker.AddGene (Verse.GeneDef geneDef, System.Boolean xenogene) [0x0001a] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at ElderThingFaction.HarmonyElderThings.GenerateGenes_PreFix (Verse.Pawn pawn) [0x00026] in <db586fa84ac4474f9e17a6584d128155>:0 
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.GenerateGenes_Patch3(Verse.Pawn,RimWorld.XenotypeDef,Verse.PawnGenerationRequest)
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.TryGenerateNewPawnInternal_Patch0(Verse.PawnGenerationRequest&,string&,bool,bool)
+  at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest& request) [0x00094] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest request) [0x00188] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.GeneratePawn_Patch3(Verse.PawnGenerationRequest)
+  at (wrapper dynamic-method) Verse.StartingPawnUtility.Verse.StartingPawnUtility.NewGeneratedStartingPawn_Patch0(int) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Failed to find Verse.GeneDef named ET_SporeReproduction. There are 227 defs of this type loaded. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error while generating pawn. Rethrowing. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+  at RimWorld.GeneMaker.MakeGene (Verse.GeneDef def, Verse.Pawn pawn) [0x00000] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at RimWorld.Pawn_GeneTracker.AddGene (Verse.GeneDef geneDef, System.Boolean xenogene) [0x0001a] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at ElderThingFaction.HarmonyElderThings.GenerateGenes_PreFix (Verse.Pawn pawn) [0x00026] in <db586fa84ac4474f9e17a6584d128155>:0 
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.GenerateGenes_Patch3(Verse.Pawn,RimWorld.XenotypeDef,Verse.PawnGenerationRequest)
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.TryGenerateNewPawnInternal_Patch0(Verse.PawnGenerationRequest&,string&,bool,bool)
+  at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest& request) [0x00094] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest request) [0x00188] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.GeneratePawn_Patch3(Verse.PawnGenerationRequest) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception filling window for RimWorld.Page_ChooseIdeoPreset: System.NullReferenceException: Object reference not set to an instance of an object
+  at RimWorld.GeneMaker.MakeGene (Verse.GeneDef def, Verse.Pawn pawn) [0x00000] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at RimWorld.Pawn_GeneTracker.AddGene (Verse.GeneDef geneDef, System.Boolean xenogene) [0x0001a] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at ElderThingFaction.HarmonyElderThings.GenerateGenes_PreFix (Verse.Pawn pawn) [0x00026] in <db586fa84ac4474f9e17a6584d128155>:0 
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.GenerateGenes_Patch3(Verse.Pawn,RimWorld.XenotypeDef,Verse.PawnGenerationRequest)
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.TryGenerateNewPawnInternal_Patch0(Verse.PawnGenerationRequest&,string&,bool,bool)
+  at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest& request) [0x00094] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest request) [0x00188] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at (wrapper dynamic-method) Verse.PawnGenerator.Verse.PawnGenerator.GeneratePawn_Patch3(Verse.PawnGenerationRequest)
+  at (wrapper dynamic-method) Verse.StartingPawnUtility.Verse.StartingPawnUtility.NewGeneratedStartingPawn_Patch0(int)
+  at Verse.StartingPawnUtility.AddNewPawn (System.Int32 index) [0x00000] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns.GenerateStartingPawns () [0x0000b] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at RimWorld.ScenPart_ConfigPage_ConfigureStartingPawnsBase.PostIdeoChosen () [0x00164] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at RimWorld.Scenario.PostIdeoChosen () [0x00014] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at RimWorld.Page_ChooseIdeoPreset.DoClassic () [0x00060] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at RimWorld.Page_ChooseIdeoPreset.DoNext () [0x00035] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at RimWorld.Page.DoBottomButtons (UnityEngine.Rect rect, System.String nextLabel, System.String midLabel, System.Action midAct, System.Boolean showNext, System.Boolean doNextOnKeypress) [0x000fa] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at RimWorld.Page_ChooseIdeoPreset.DoWindowContents (UnityEngine.Rect inRect) [0x003b7] in <3cca3e6203e64b109fd8ce21f7120d03>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001d3] in <3cca3e6203e64b109fd8ce21f7120d03>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Curl error 42: Callback aborted
+(Filename:  Line: 853)
+
